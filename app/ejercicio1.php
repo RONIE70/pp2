@@ -1,17 +1,18 @@
 <?php
 
-//echo rand (1,70);
+echo " Su edad es: ";
 
-//$edad-15;
 echo $edad= rand (1,70);
+
 echo "<br>";
 
-if ($edad<=15)
+if ($edad<=18)
 {
-	echo $edad. " es menor";
+	echo $edad. " años es menor";
 }
-else {
-	echo $edad. " es mayor";
+else 
+{
+	echo $edad. " años es mayor";
 }
 
 ?>
