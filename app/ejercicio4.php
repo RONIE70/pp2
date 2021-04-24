@@ -18,16 +18,17 @@ if ($num1>$num2 && $num1>$num3)
 	echo "<br>";
 	echo $num1. " : ES EL MAYOR";
 }
-else if ($num2>$num1 && $num2>$num3)
-{
+	else 
+
+	if ($num2>$num3)
+{		
 	echo "<br>";
 	echo $num2. " : ES EL MAYOR";
 }
-
-else 
+	else 
 {
 	echo "<br>";
 	echo $num3. " : ES EL MAYOR";
 }
-
+    
 ?>
