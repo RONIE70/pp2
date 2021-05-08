@@ -1,18 +1,15 @@
 <?php
+ //$miNombre="tunombre";
+ 
+ //echo "hola mundo 2021 ";
 
-echo " Su edad es: ";
-
-echo $edad= rand (1,70);
-
-echo "<br>";
-
-if ($edad<=18)
+/*class humano
 {
-	echo $edad. " años es menor";
-}
-else 
-{
-	echo $edad. " años es mayor";
-}
 
+}*/
+
+function mostrar ($datoParaMostrar)
+{
+	echo "hola ".$datoParaMostrar;
+}
 ?>

@@ -1,19 +1,18 @@
+
 <?php
+/*De un numero ingresado positivo (de lo contrario informar que no se puede) mostrar todos los números desde el ingresado hasta el 0(cero). */
 
-echo " El valor neto de su producto es:$ ";
-
-echo $art= rand (1,500);
-
-$iva=1.21;
-
+echo "Ingrese un numero: ";
+echo $numero= rand (1,50);
 echo "<br>";
 
-$resultado=$art*$iva;
+$contador=0;
 
-echo " El valor de su producto con IVA es:$ ";
-
-echo $resultado;
-
-echo "<br>";
+while($numero>0&&$contador<$numero) //2do paso, logica 10 vueltas
+{
+	echo "<br>contador :$contador";
+	
+	$contador++;	
+}
 
 ?>

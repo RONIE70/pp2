@@ -1,0 +1,22 @@
+<?php
+$suma1,$suma2,$numero,$n,$k;
+$k=1;
+$numero=1;
+	while( $k<=1)
+	{
+	$suma2=0;
+	$n=$numero;
+	$sum1=$n*($n-1)/2;
+		while($suma2<=$suma1)
+		 {$n++;
+		  $suma2=$suma2+$n;
+		 }
+	 if($suma2==$suma1)
+	 {cout<<num<<"\t es centro numerico\n";
+	  $k++;
+	 }
+ 
+	  $numero++;
+ 
+	}
+?>
