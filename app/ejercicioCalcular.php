@@ -1,7 +1,7 @@
 <?php
 
-$numero1= 4;//rand (1,20);
-$numero2= 5;//rand (1,20);
+$numero1= 0;//rand (1,20);
+$numero2= 1;//rand (1,20);
 $operador="/"; //rand (1,3);
 
 echo "Ingrese el primer numero: ".$numero1;
